@@ -1,0 +1,137 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="posterBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4e9d4"/>
+      <stop offset="1" stop-color="#e8d9b8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="400" fill="#3e2723"/>
+  <rect x="10" y="10" width="480" height="380" fill="none" stroke="#8d6e63" stroke-width="3"/>
+  <rect x="18" y="18" width="464" height="364" fill="none" stroke="#a1887f" stroke-width="1"/>
+
+  <rect x="26" y="26" width="448" height="348" fill="url(#posterBg)"/>
+
+  <!-- Art Deco sunburst -->
+  <g fill="#d7bf8f" opacity="0.55">
+    <path d="M250 300 L30 60 L70 55 Z"/>
+    <path d="M250 300 L75 40 L112 50 Z"/>
+    <path d="M250 300 L140 35 L170 48 Z"/>
+    <path d="M250 300 L210 30 L232 42 Z"/>
+    <path d="M250 300 L290 30 L268 42 Z"/>
+    <path d="M250 300 L360 35 L330 48 Z"/>
+    <path d="M250 300 L425 40 L388 50 Z"/>
+    <path d="M250 300 L470 60 L430 55 Z"/>
+  </g>
+
+  <g fill="#b89a6a" opacity="0.5">
+    <circle cx="80" cy="110" r="4"/>
+    <circle cx="430" cy="100" r="4"/>
+    <circle cx="140" cy="70" r="3"/>
+    <circle cx="370" cy="65" r="3"/>
+  </g>
+
+  <g fill="none" stroke="#3e2723" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- rear wheel -->
+    <circle cx="155" cy="300" r="44"/>
+    <circle cx="155" cy="300" r="34" stroke-width="2"/>
+    <g stroke-width="1.5">
+      <line x1="155" y1="266" x2="155" y2="334"/>
+      <line x1="121" y1="300" x2="189" y2="300"/>
+      <line x1="131" y1="276" x2="179" y2="324"/>
+      <line x1="179" y1="276" x2="131" y2="324"/>
+    </g>
+    <circle cx="155" cy="300" r="7" fill="#3e2723" stroke="none"/>
+
+    <!-- front wheel -->
+    <circle cx="370" cy="300" r="44"/>
+    <circle cx="370" cy="300" r="34" stroke-width="2"/>
+    <g stroke-width="1.5">
+      <line x1="370" y1="266" x2="370" y2="334"/>
+      <line x1="336" y1="300" x2="404" y2="300"/>
+      <line x1="346" y1="276" x2="394" y2="324"/>
+      <line x1="394" y1="276" x2="346" y2="324"/>
+    </g>
+    <circle cx="370" cy="300" r="7" fill="#3e2723" stroke="none"/>
+
+    <!-- frame -->
+    <path d="M155 300 L212 218 L345 230 L155 300"/>
+    <path d="M212 218 L262 298"/>
+    <path d="M262 298 L155 300"/>
+    <path d="M262 298 L345 230 L370 300"/>
+    <path d="M212 218 L196 206"/>
+    <path d="M345 230 L390 198"/>
+    <path d="M390 198 L386 176"/>
+    <path d="M350 176 Q386 166 414 176"/>
+
+    <!-- saddle -->
+    <path d="M182 200 Q208 192 232 198 Q230 206 208 206 Q190 206 182 200"/>
+  </g>
+
+  <circle cx="262" cy="298" r="18" fill="none" stroke="#3e2723" stroke-width="3"/>
+  <circle cx="262" cy="298" r="4" fill="#3e2723"/>
+
+  <!-- ground line -->
+  <path d="M60 344 H440" stroke="#3e2723" stroke-width="3" stroke-dasharray="14 10"/>
+
+  <!-- engraved pelican -->
+  <g fill="none" stroke="#3e2723" stroke-linecap="round" stroke-linejoin="round">
+    <!-- tail -->
+    <path d="M170 220 Q140 214 126 234 Q150 230 174 234" stroke-width="3"/>
+    <path d="M170 232 Q142 228 130 246 Q154 242 176 244" stroke-width="2.5"/>
+
+    <!-- body -->
+    <path d="M190 208 Q230 176 275 200 Q300 218 285 250 Q240 278 195 250 Q180 232 190 208" stroke-width="4" fill="#fbf3e3"/>
+    <path d="M200 236 Q245 258 280 238" stroke-width="2" opacity="0.7"/>
+    <path d="M205 246 Q240 262 270 248" stroke-width="2" opacity="0.7"/>
+
+    <!-- neck -->
+    <path d="M272 205 Q298 188 302 160 Q305 140 292 128" stroke-width="14" fill="#fbf3e3"/>
+    <path d="M272 205 Q296 188 300 162" stroke-width="3" opacity="0.6"/>
+
+    <!-- head -->
+    <path d="M292 128 Q276 116 268 128 Q272 144 292 146 Q306 140 302 128" fill="#fbf3e3" stroke-width="3"/>
+
+    <!-- crest -->
+    <path d="M276 120 Q270 104 258 102 Q268 112 272 124" fill="#fbf3e3" stroke-width="2.5"/>
+
+    <!-- bill -->
+    <path d="M302 128 Q344 122 382 134 Q356 144 302 140" fill="#e8b04b" stroke-width="3"/>
+    <path d="M306 136 Q344 134 374 136" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- pouch -->
+    <path d="M306 140 Q336 168 372 148 Q346 158 306 148" fill="#f0c896" stroke-width="2.5"/>
+
+    <!-- eye -->
+    <circle cx="288" cy="130" r="5" fill="#3e2723" stroke="none"/>
+    <circle cx="290" cy="128" r="1.6" fill="#fbf3e3" stroke="none"/>
+
+    <!-- wing -->
+    <path d="M215 218 Q180 208 166 232 Q182 252 216 254 Q228 234 215 218" fill="#e3d5ba" stroke-width="3"/>
+    <path d="M208 226 Q186 222 174 236" stroke-width="1.5"/>
+    <path d="M210 236 Q186 234 172 244" stroke-width="1.5"/>
+
+    <!-- legs -->
+    <path d="M225 254 L242 296" stroke="#e8b04b" stroke-width="5"/>
+    <path d="M244 254 L264 280" stroke="#e8b04b" stroke-width="5"/>
+
+    <!-- feet -->
+    <path d="M234 296 Q248 292 258 296" stroke="#e8b04b" stroke-width="5"/>
+    <path d="M256 280 Q270 276 278 280" stroke="#e8b04b" stroke-width="5"/>
+  </g>
+
+  <!-- handlebar grip -->
+  <path d="M346 176 l-8 8" stroke="#3e2723" stroke-width="8" stroke-linecap="round"/>
+  <path d="M414 176 l8 8" stroke="#3e2723" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- wing reaching handlebar -->
+  <path d="M230 210 Q290 196 344 180" fill="none" stroke="#3e2723" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- title banner -->
+  <rect x="120" y="356" width="260" height="26" fill="#3e2723"/>
+  <text x="250" y="374" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#f4e9d4" text-anchor="middle" letter-spacing="3">PELICAN CYCLES</text>
+  <path d="M110 362 l-8 6 M110 376 l-8 -6" stroke="#8d6e63" stroke-width="2" fill="none"/>
+  <path d="M390 362 l8 6 M390 376 l8 -6" stroke="#8d6e63" stroke-width="2" fill="none"/>
+
+  <text x="250" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#a1887f" text-anchor="middle" letter-spacing="4">EST. 2026</text>
+</svg>
